@@ -1,0 +1,76 @@
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C8E6C9;
+  color: #1b3d2f;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(to right, #4F9D69, #2D6A4F);
+  color: white;
+  padding: 30px 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #3A7255;
+  padding: 12px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #E9F5E9;
+  color: #2D6A4F;
+}
+
+.main {
+  max-width: 900px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+
+section {
+  display: none;
+  background: white;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+section:target {
+  display: block;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 { color: #2D6A4F; margin-bottom: 5px; }
+h2 { color: #2D6A4F; margin-bottom: 10px; }
+p { font-size: 16px; margin-bottom: 8px; }
+ul { list-style: none; padding: 0; font-size: 18px; line-height: 1.6; }
+
+footer {
+  background-color: #2D6A4F;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+</style>
